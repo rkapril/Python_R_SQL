@@ -2,7 +2,7 @@ library(DBI)
 library(odbc)
 library(tidyverse)
 
-con <- dbConnect(odbc(), dsn = "MySQL")
+con <- dbConnect(odbc(), dsn = "XXX")
 
 odbcListObjects(con)
 # name    type
@@ -14,7 +14,7 @@ odbcListObjects(con)
 # 6               test catalog
 # 7              world catalog
 
-setwd("C:\\Users\\User\\OneDrive\\Desktop\\MySQL")
+setwd("C:\\...")
 
 getwd()
 
